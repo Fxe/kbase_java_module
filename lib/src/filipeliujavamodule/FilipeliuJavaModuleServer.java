@@ -76,7 +76,7 @@ public class FilipeliuJavaModuleServer extends JsonServerServlet {
         
         // Print statements to stdout/stderr are captured and available as the App log
         System.out.println("Starting filter contigs. Parameters:");
-        System.out.println(params);
+        //System.out.println(params);
         
         /* Step 1 - Parse/examine the parameters and catch any errors
          * It is important to check that parameters exist and are defined, and that nice error
