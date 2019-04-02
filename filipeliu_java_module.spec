@@ -14,4 +14,7 @@ module filipeliu_java_module {
     */
     funcdef run_filipeliu_java_module(mapping<string,UnspecifiedObject> params) returns (ReportResults output) authentication required;
 
+    funcdef run_html_report(mapping<string,UnspecifiedObject> params) returns (ReportResults output) authentication required;
+
+    funcdef run_workspace_example(mapping<string,UnspecifiedObject> params) returns (ReportResults output) authentication required;
 };

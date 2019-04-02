@@ -39,8 +39,8 @@ import filipeliujavamodule.ReportResults;
 public class FilipeliuJavaModuleServer extends JsonServerServlet {
     private static final long serialVersionUID = 1L;
     private static final String version = "0.0.1";
-    private static final String gitUrl = "git@github.com:Fxe/kbase_java_module.git";
-    private static final String gitCommitHash = "25c455c65d733901b1ef441819b6f8b027e314de";
+    private static final String gitUrl = "";
+    private static final String gitCommitHash = "";
 
     //BEGIN_CLASS_HEADER
     private final URL callbackURL;
@@ -148,36 +148,6 @@ public class FilipeliuJavaModuleServer extends JsonServerServlet {
 
         System.out.println("returning:\n" + returnVal);
         //END run_filipeliu_java_module
-        return returnVal;
-    }
-
-    /**
-     * <p>Original spec-file function name: run_html_report</p>
-     * <pre>
-     * </pre>
-     * @param   params   instance of mapping from String to unspecified object
-     * @return   parameter "output" of type {@link filipeliujavamodule.ReportResults ReportResults}
-     */
-    @JsonServerMethod(rpc = "filipeliu_java_module.run_html_report", async=true)
-    public ReportResults runHtmlReport(Map<String,UObject> params, AuthToken authPart, RpcContext jsonRpcContext) throws Exception {
-        ReportResults returnVal = null;
-        //BEGIN run_html_report
-        //END run_html_report
-        return returnVal;
-    }
-
-    /**
-     * <p>Original spec-file function name: run_workspace_example</p>
-     * <pre>
-     * </pre>
-     * @param   params   instance of mapping from String to unspecified object
-     * @return   parameter "output" of type {@link filipeliujavamodule.ReportResults ReportResults}
-     */
-    @JsonServerMethod(rpc = "filipeliu_java_module.run_workspace_example", async=true)
-    public ReportResults runWorkspaceExample(Map<String,UObject> params, AuthToken authPart, RpcContext jsonRpcContext) throws Exception {
-        ReportResults returnVal = null;
-        //BEGIN run_workspace_example
-        //END run_workspace_example
         return returnVal;
     }
     @JsonServerMethod(rpc = "filipeliu_java_module.status")
