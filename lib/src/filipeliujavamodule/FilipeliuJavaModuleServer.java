@@ -121,12 +121,12 @@ public class FilipeliuJavaModuleServer extends JsonServerServlet {
         /* Step 3 - Actually perform the filter operation, saving the good contigs to a new
          * fasta file.
          */
-        final Path out = scratch.resolve("filtered.fasta");
+        //final Path out = scratch.resolve("filtered.fasta");
         long total = 11;
         long remaining = 22;
 
         final String resultText = String.format("Filtered assembly to %s contigs out of %s %s",
-                remaining, total, out);
+                remaining, total, "!@$@#%#$");
         System.out.println(resultText);
         
         // Step 4 - Save the new Assembly back to the system
